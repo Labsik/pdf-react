@@ -17,12 +17,11 @@
 		"jsx": "react-jsx",
 		"baseUrl": ".",
 		"paths": {
-			"@pages/*": ["src/pages/*"],
 			"@components/*": ["src/components/*"],
 			"@api/*": ["src/api/*"],
 			"@utils/*": ["src/utils/*"]
 		},
-		"types": ["node"]
+		"types": ["node", "jest"]
 	},
 
 	"include": ["vite.config.ts", ".eslintrc.cjs", "src"]

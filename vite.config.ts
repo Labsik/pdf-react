@@ -14,7 +14,7 @@ export default defineConfig({
    build: {
     rollupOptions: {
       output: {
-        assetFileNames: 'assets/[name].[ext]', // Ensure worker files are named properly
+        assetFileNames: 'assets/[name].[ext]',
       },
     },
   },
